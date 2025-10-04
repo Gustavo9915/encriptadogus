@@ -4,21 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="img/logo2.0.png" alt="">
-    <div>
-        <input type="text">
-        <p>Solo letras minusculas y sin acentos</p>
-        <button>Encrptar</button>
-        <button>Desencriptar</button>
-    </div>
-    <div>
+    <main class="textoEncriptar">
+        <div class="logo">
+            <img src="img/logo2.0.png" alt="">
+        </div>
+        <div class="container">
+            <div class="imput_text">
+            <textarea name="" id="" placeholder="ingresa el texto aqui" class="input_textoEncriptado"></textarea>
+            <div class="boton">
+                <small><img src="img/Vector.png" alt="logo de advertencia"> Solo letras minusculas y sin acentos</small>
+                <div class="botones">
+                    <button class="boton_Encriptar" id="boton_Encriptar">Encrptar</button>
+                    <button class="boton_desencriptar" id="boton_desencriptar">Desencriptar</button>
+                </div> 
+            </div>  
+        </div> 
+
+        </div>
+        
+        <div class="output_text" id="output_text">
+            <div class="result no_texto">
+                <div class="no_output">
+                     <img src="img/Muñeco.png" alt="muñeco">
+                     <h2>Ningun mensaje fue encontrado</h2>
+                     <p>ingresa el texto que deseas encriptar o desencriptar</p>              
+                </div>
+                <div class="result_autput">
+                    <textarea class="output_text_decrypt" id="output_text_decrypt"></textarea>
+                    <button class="button button_descrypt button_copiar" id="button_copiar">Copiar </button>
+
+                </div>
+
+            </div>
+        </div>     
+    </main>
+   
+    <footer>
+        <div>
         <img src="" alt="">
         <p>Redes siciales</p>
     </div>
-    <footer>
-
     </footer>
     
 </body>

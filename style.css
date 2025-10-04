@@ -60,3 +60,65 @@ main .output_text{
     align-items: center;
     margin-top: 3em;
 }
+.output_text .result{
+    background-color: #ffff;
+    height: 800vh;
+    width: 75%;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0cm 0cm 2em 0.1em #00000031;
+}
+.result .no_output{
+    color: #0A3871;
+    font-size: 700;
+    text-align: center;
+    height: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result .result_output{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.result .result_output button{
+    margin-bottom: 2em;
+}
+.result .result_output .output_text_descrypt{
+    height: 100%;
+    width: 100%;
+    margin-top: 1em;
+    resize: none;
+    background: transparent;
+    border: none;
+    color: #0A3871;
+    font-weight: 400;
+    font-size: 2em;
+}
+.result .result_output .output_text_descrypt:focus{
+    overflow: none;
+}
+.result .no_output img{
+    width: 100%;
+}
+main .result .no_output
+main .result .result_output{
+    padding: 2em;
+}
+main .bottons{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+main .button{
+    padding: 1em;
+    width: 100%;
+    border-radius: 1em;
+    border: none;
+    border: 2px solid #0A3871;
+    transition: border-color 250ms background-color 250ms;
+}

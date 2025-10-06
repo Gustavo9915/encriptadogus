@@ -122,3 +122,76 @@ main .button{
     border: 2px solid #0A3871;
     transition: border-color 250ms background-color 250ms;
 }
+main .button:hover,
+.footer-distributed .button_enviar:hover{
+    cursor: pointer;
+}
+main .button.button_encrypt{
+    background: #0A3871;
+    color: white;
+    font-weight: 500;
+}
+main .button.button_encrypt:hover{
+    background-color: #4576b1;
+    border-color: #4576b1;
+}
+main .button.button_decrypt{
+    background: transparent;
+    color: #0A3871;
+    font-weight: 500;
+}
+main .button.button_decryptr:hover{
+    background-color: #dde2e8;
+}
+main .button small{
+    color: #495057;
+    font-weight: 500;
+    display: flex;
+    align-items: end;
+}
+main .button small img{
+    padding-right: 0.25em;
+}
+.result.no_text .no_output{
+    display: none;
+}
+.result:not(.no_text) .result_output{
+    display: flex;
+}
+.result.input_text .no_output{
+    display: flex;
+}
+.result:not(.no_text) .no_output{
+    display: none;
+}
+.footer-distributed{
+    background: #0A3871;
+    box-shadow: 0em 0em 2em 0.1em #00000031;
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px seans-serif;
+    text-align: left;
+    margin-top: 2vh;
+    padding: 1em 4em 0.5em;
+    overflow: hidden;
+}
+section{
+    width: 100%;
+    display: inline-block;
+    background: #CCC;
+    height: 60vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.footer-distributed .footer-left{
+    float: left;
+}
+.footer-distributed h3{
+    color: #ffffff;
+    font: normal 36px ;
+}
+.footer-distributed h3 span{
+    color: #5383d3;
+}

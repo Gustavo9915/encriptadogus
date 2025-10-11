@@ -30,7 +30,7 @@ main .container{
     justify-content: center;
 }
 main .container .input_text{
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -50,6 +50,7 @@ main .container .input_text textarea:focus{
 }
 main .container .input_text textarea::placeholder{
     color: #0A3871;
+    width: 50%;
 }
 main .container .botton{
     display: flex;
@@ -198,4 +199,16 @@ section{
 }
 .footer-distributed h3 span{
     color: #5383d3;
+}
+.redes-sociales{
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+.redes{
+    width: 60px;
+    margin-left: 300px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
 }

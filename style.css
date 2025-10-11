@@ -8,6 +8,10 @@ main{
     max-height: 80vh;
     min-height: 90vh;
 }
+.botones{
+    display: flex;
+    flex-direction: row;
+}
 main .logo{
     width: 10vh;
     display: flex;
@@ -56,13 +60,13 @@ main .container .botton{
 main .output_text{
     width: 40vw;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     margin-top: 3em;
 }
 .output_text .result{
     background-color: #ffff;
-    height: 800vh;
+    height: 100%;
     width: 75%;
     border-radius: 2em;
     display: flex;
